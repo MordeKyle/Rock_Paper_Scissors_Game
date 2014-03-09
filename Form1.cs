@@ -108,21 +108,43 @@ namespace Rock_Paper_Scissors_Game
         {
             try
             {
-                assignCompChoice();
-
-                calculateResults();
-
-                if (rockRad.Checked)
+                if (playButton.Text == "Play")
                 {
-                    rockSelected();
-                }
-                else if (paperRad.Checked)
-                {
-                    paperSelected();
+                    if ((rockRad.Checked == false) && (paperRad.Checked == false) && (scissorsRad.Checked == false))
+                    {
+                        MessageBox.Show("Please select Rock, Paper, or Scissors.");
+                    }
+
+                    else
+                    {
+                        assignCompChoice();
+
+                        calculateResults();
+
+                        if (rockRad.Checked)
+                        {
+                            rockSelected();
+                        }
+                        else if (paperRad.Checked)
+                        {
+                            paperSelected();
+                        }
+                        else
+                        {
+                            scissorsSelected();
+                        }
+
+                        playButton.Text = "Play Again";
+                    }
                 }
                 else
                 {
-                    scissorsSelected();
+                    rockRad.Checked = false;
+                    paperRad.Checked = false;
+                    scissorsRad.Checked = false;
+                    computerChoiceLabel.Text = "";
+                    resultLabel.Text = "";
+                    playButton.Text = "Play";
                 }
             }
             catch (Exception ex)

@@ -1,27 +1,40 @@
 ﻿***CHANGE LOG***
 
+Version: 1.1 Lucky Robin
+03/09/2014 @ 05:54
+•changes made to playButton_Click function
+	-change playButton.Text to "Play Again" after display of results
+	-added if statment to check if playButton.Text is "Play Again" or "Play"
+		+if play again
+			clear everything out
+		+if play
+			check to see that user selected an option, then calculate and dispay results.
+	-added event for user not selecting any radio buttons
+		+MessageBox
+***Everything seems to be working
+
 Version: 1.0 Building Robin
 03/09/2014 @ 05:00
 •declared variables
-	winConstant
-    loseConstant
-    drawConstant
-    resultHolder
-    userInputConstant
-    computerChoice
-    winString
-    loseString
-    drawString
-    paperString
-    rockString
-    scissorsString
+	-winConstant
+    -loseConstant
+    -drawConstant
+    -resultHolder
+    -userInputConstant
+    -computerChoice
+    -winString
+    -loseString
+    -drawString
+    -paperString
+    -rockString
+    -scissorsString
 •built funtions
-	assignCompChoice
-	calculateResults
-	rockSelected
-	paperSelected
-	scissorsSelected
-	playButton_Click
+	-assignCompChoice
+	-calculateResults
+	-rockSelected
+	-paperSelected
+	-scissorsSelected
+	-playButton_Click
 •put everything on the form
 **considering a wait before displaying the results. Also adding a "One Moment" in the label while
 	waiting. That way, if the results are the same, the user sees a change in the output.

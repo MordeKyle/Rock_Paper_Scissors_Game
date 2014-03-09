@@ -59,7 +59,6 @@
             this.rockRad.Name = "rockRad";
             this.rockRad.Size = new System.Drawing.Size(51, 17);
             this.rockRad.TabIndex = 1;
-            this.rockRad.TabStop = true;
             this.rockRad.Text = "Rock";
             this.rockRad.UseVisualStyleBackColor = true;
             // 
@@ -70,7 +69,6 @@
             this.paperRad.Name = "paperRad";
             this.paperRad.Size = new System.Drawing.Size(53, 17);
             this.paperRad.TabIndex = 2;
-            this.paperRad.TabStop = true;
             this.paperRad.Text = "Paper";
             this.paperRad.UseVisualStyleBackColor = true;
             // 
@@ -81,7 +79,6 @@
             this.scissorsRad.Name = "scissorsRad";
             this.scissorsRad.Size = new System.Drawing.Size(64, 17);
             this.scissorsRad.TabIndex = 3;
-            this.scissorsRad.TabStop = true;
             this.scissorsRad.Text = "Scissors";
             this.scissorsRad.UseVisualStyleBackColor = true;
             // 
