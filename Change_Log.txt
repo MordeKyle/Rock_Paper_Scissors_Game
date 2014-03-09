@@ -1,5 +1,28 @@
 ﻿***CHANGE LOG***
 
-Version: #.# Robin
-MM/DD/YYYY @ HH:MM
-•
+Version: 1.0 Building Robin
+03/09/2014 @ 05:00
+•declared variables
+	winConstant
+    loseConstant
+    drawConstant
+    resultHolder
+    userInputConstant
+    computerChoice
+    winString
+    loseString
+    drawString
+    paperString
+    rockString
+    scissorsString
+•built funtions
+	assignCompChoice
+	calculateResults
+	rockSelected
+	paperSelected
+	scissorsSelected
+	playButton_Click
+•put everything on the form
+**considering a wait before displaying the results. Also adding a "One Moment" in the label while
+	waiting. That way, if the results are the same, the user sees a change in the output.
+***Everything seems to be working. I'm either starting to understand all of this, or I'm lucky.
